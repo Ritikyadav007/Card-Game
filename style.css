@@ -1,0 +1,45 @@
+.container{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+
+}
+
+.flex-box-1, .flex-box-2, .flex-box-3{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.flex-box-1, .flex-box-2{
+    background: url('https://i.pinimg.com/originals/79/90/fb/7990fb8d9b60e42c119df9c6a135d7ae.jpg') center;
+}
+
+.flex-box-1 div{
+    border:1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 450px;
+    text-align: center;
+}
+
+.flex-box-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+table,td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.flex-box-3{
+    margin-bottom: 10px;
+}
+
